@@ -41,6 +41,6 @@ Expérience internationale en **France, Chine, Pologne, Sénégal** — aujourd�
 - 💼 [LinkedIn](https://www.linkedin.com/in/jeremiediatta/)  
 - 🌐 [Site IngeTalent](#) *(bientôt)*  
 - 🎯 [Fiverr](#)  
-- 📧 jeremie.diatta[at]gmail.com  
+- 📧 jeremie.diatta[at]outlook.com  
 
 ---
