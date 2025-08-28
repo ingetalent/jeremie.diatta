@@ -1,81 +1,46 @@
-👨‍💻 Jeremie Diatta — Mechanical Engineer | CAD | FEA | Automation
+# 👨‍💻 Jeremie Diatta — Mechanical Engineer | CAD | FEA | Automation
 
-Bienvenue sur mon portfolio GitHub !
-Je suis ingénieur mécanique avec une expertise en conception produit, simulation numérique (FEA), automatisation (VBA, Python, MATLAB) et optimisation de processus industriels.
+Bienvenue sur mon portfolio GitHub !  
+Je suis **ingénieur mécanique** spécialisé en **CAO (SolidWorks, CATIA V5, Onshape)**, **simulation numérique (FEA)** et **automatisation (VBA, Python, MATLAB)**.  
+Expérience internationale en **France, Chine, Pologne, Sénégal** — aujourd’hui freelance avec [IngeTalent](#).  
 
-Avec une expérience internationale en France, Chine, Pologne et Sénégal, j’ai travaillé dans l’aéronautique, l’énergie renouvelable et la fabrication industrielle.
-Aujourd’hui, je mets ces compétences au service de clients à travers le monde via ma micro-entreprise IngeTalent
-.
+---
 
-🚀 Compétences clés
+## 📂 Mes projets
 
-Conception mécanique : SolidWorks, CATIA V5, Onshape
+### 🔧 Macros SolidWorks
+- [Macro d’export DXF/PDF/STEP](https://github.com/jeremiediatta/solidworks-macros-dxf-pdf-step)  
+- [Macro de génération de boulons DIN 933](https://github.com/jeremiediatta/solidworks-macro-bolt-din933)  
+- [Macro de génération d’anneaux DIN 472](https://github.com/jeremiediatta/solidworks-macro-ring-din472)  
+- [Macros d’annotation & automatisation SolidWorks](https://github.com/jeremiediatta/solidworks-macro-annotations)  
 
-Simulation numérique (FEA/CFD) : ANSYS, Abaqus, SolidWorks Simulation
+### 📐 Conception & CAO
+- [Drone hybride (CAS, Chine)](https://github.com/jeremiediatta/cad-project-drone-hybride)  
+- [Diamond DA62 Aircraft (Portfolio)](https://github.com/jeremiediatta/cad-project-da62-aircraft)  
+- [Robinet anti-incendie (RIA)](https://github.com/jeremiediatta/cad-project-ria)  
 
-Automatisation & Scripts : VBA (SolidWorks & Excel), Python, MATLAB
+### 🧮 Simulation & FEA
+- [Optimisation d’aile d’avion](https://github.com/jeremiediatta/fea-optimization-wing)  
+- [Analyses statiques & modales](https://github.com/jeremiediatta/fea-structures-static-modal)  
 
-Gestion & optimisation : SAP, Power BI, automatisation de process
+### 💻 Automatisation & Data
+- [Excel BOM Automation](https://github.com/jeremiediatta/excel-bom-automation)  
+- [Python/MATLAB Optimization Scripts](https://github.com/jeremiediatta/python-matlab-optimization)  
 
-Langues & culture internationale : Français, Anglais, expériences en Europe, Asie et Afrique
+---
 
-📂 Projets en avant
+## 🌍 Mon parcours
+- ✈️ **France** – Aéronautique, conception & industrialisation  
+- 🇨🇳 **Chine** – Drone hybride (stage CAS)  
+- 🇵🇱 **Pologne** – Manufacturing & supply chain  
+- 🇸🇳 **Sénégal** – Freelance & entrepreneuriat  
 
-🔧 Macros & Automatisation SolidWorks
+---
 
-Macro d’export DXF/PDF/STEP depuis une nomenclature
+## 📫 Me contacter
+- 💼 [LinkedIn](https://www.linkedin.com/in/jeremiediatta/)  
+- 🌐 [Site IngeTalent](#) *(bientôt)*  
+- 🎯 [Fiverr](#)  
+- 📧 jeremie.diatta[at]gmail.com  
 
-Macro de génération de boulons DIN 933
-
-Macro de génération d’anneaux élastiques DIN 472
-
-Macros d’annotation automatique pour plans SolidWorks
-
-📐 Conception & Simulation
-
-Optimisation aérodynamique d’une aile d’avion
-
-Conception d’un drone hybride (CAS, Chine)
-
-Modélisation d’un robinet anti-incendie (RIA)
-
-Étude et simulation de structures mécaniques sous charge statique et modale
-
-💻 Automatisation Excel & Process
-
-Tableaux Excel automatisés pour gestion de BOM
-
-Scripts Python/MATLAB pour optimisation numérique
-
-🌍 Parcours international
-
-✈️ France – Conception & industrialisation aéronautique
-
-🇨🇳 Chine – Conception & simulation d’un drone hybride (stage CAS)
-
-🇵🇱 Pologne – Projets en manufacturing & supply chain
-
-🇸🇳 Sénégal – Freelance & entrepreneuriat (IngeTalent)
-
-📫 Me contacter
-
-💼 LinkedIn
-
-🌐 Site IngeTalent
- (bientôt disponible)
-
-🎯 Fiverr — FEA Services
-
-📧 jeremie.diatta[at]gmail.com
-
-⚡ Objectif
-
-Toujours à la recherche de nouveaux défis :
-
-Missions freelance en CAO, FEA, automatisation
-
-Opportunités internationales avec sponsorship visa
-
-Projets ambitieux en ingénierie mécanique et numérique
-
-👉 Explorez mes projets, laissez une étoile ⭐ et discutons d’opportunités de collaboration !
+---
