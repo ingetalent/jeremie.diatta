@@ -1,6 +1,25 @@
-title : Jeremie DIATTA
-logo : img/[Taille originale] IngeTalent.png
-description : "Portfolio Mechanical Enginer"
-show_downloads : false
-theme : architech-theme
-lang : eng
+title: "Jeremie DIATTA - IngeTalent"
+logo: "/img/IngeTalent.png"
+description: "Mechanical Engineer | CAD Automation | FEA | Freelance Consulting"
+show_downloads: false
+google_analytics: UA-XXXXXXXXX-X  # si tu veux tracker les visites plus tard
+theme: jekyll-theme-cayman
+lang: en
+
+# Liens vers tes profils pro
+social_links:
+  linkedin: "https://www.linkedin.com/in/jeremie-diatta"
+  upwork: "https://www.upwork.com/freelancers/~yourprofile"
+  fiverr: "https://www.fiverr.com/ingetalent"
+  github: "https://github.com/JeremieDiatta"
+
+# Options de navigation
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Blog"
+    link: "/blog"
+  - name: "Contact"
+    link: "/contact"
