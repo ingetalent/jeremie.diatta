@@ -1,58 +1,50 @@
-# 👋 Hi, I'm Jeremie DIATTA  
+# 👨‍💻 Jeremie DIATTA | Mechanical Engineer & CAD Automation Specialist  
 
-🚀 Mechanical Engineer | CAD · FEA · Process Automation  
-🌍 International experience: France · China · Poland · Senegal  
-
----
-
-## 🔧 About Me
-I’m a **Mechanical Engineer** specialized in:
-- **Product Design & CAD Modeling** (SolidWorks, CATIA V5, Onshape)  
-- **Finite Element Analysis (FEA)** (ANSYS, Abaqus, SolidWorks Simulation)  
-- **Automation & Custom Tools** (VBA for SolidWorks & Excel, Python, MATLAB)  
-- **Process Optimization** and **Engineering Automation**  
-
-Founder of **IngeTalent**, a consulting micro-company working with clients worldwide (USA, Israel, Malaysia, Italy, Canada, Germany, Australia).  
+Bienvenue sur mon **portfolio GitHub**.  
+Je suis ingénieur mécanique spécialisé en **CAO/FAO, automatisation, conception de produits et simulation numérique**.  
+Avec une expérience internationale (France, Chine, Pologne, Sénégal), j’accompagne mes clients dans la conception, l’optimisation et l’automatisation de leurs processus.  
 
 ---
 
-## 📂 Featured Projects  
+## 🔧 Projets récents (SolidWorks Macros & Automatisation)
 
-### 🔹 SolidWorks Automation Macros
-- [Cutlist Export to Excel](https://github.com/JeremieDiatta/SW-Cutlist-Export)  
-  *Macro to extract cutlist and generate structured BOM in Excel.*  
+- 📐 [SolidWorks Bolt Generator (DIN933)](https://github.com/jeremiediatta/solidworks-bolt-generator)  
+  Génération automatique de boulons hexagonaux normalisés (M1.6 à M48) via macro VBA + interface Excel.  
 
-- [DXF & PDF Batch Exporter](https://github.com/JeremieDiatta/SW-DXF-PDF-Export)  
-  *Automated DXF/PDF export for parts and assemblies with folder structure.*  
+- 🛠️ [DIN 472 Retaining Rings Generator](https://github.com/jeremiediatta/solidworks-din472-rings)  
+  Macro SolidWorks pour générer automatiquement des circlips internes DIN 472 à partir d’un tableau Excel.  
 
-- [Bolt Generator (DIN 933)](https://github.com/JeremieDiatta/SW-Bolt-Generator)  
-  *VBA macro to generate bolts (M1.6 to M48) directly from Excel inputs.*  
+- 📊 [Excel BOM Automation](https://github.com/jeremiediatta/solidworks-excel-bom)  
+  Export automatisé de nomenclatures (BOM) avec profils soudés, tôlerie et hiérarchisation intelligente dans Excel.  
 
-- [Retaining Ring Generator (DIN 472)](https://github.com/JeremieDiatta/SW-Retaining-Ring)  
-  *Excel-driven macro to create DIN 472 internal retaining rings.*  
+- ✒️ [Engraving Macro](https://github.com/jeremiediatta/solidworks-engraving-macro)  
+  Macro VBA pour graver automatiquement le nom de la pièce dans une face sélectionnée, centrée et alignée.  
 
----
+- 📄 [Drawing Automation Pack](https://github.com/jeremiediatta/solidworks-drawing-automation)  
+  Création automatique de mises en plan, projection de vues, alignements, exports DXF/PDF.  
 
-### 🔹 FEA & Simulation
-- [Wing Optimization](https://github.com/JeremieDiatta/Wing-Optimization)  
-  *Aircraft wing performance optimization with SolidWorks Simulation.*  
-
-- [Hybrid Drone Design](https://github.com/JeremieDiatta/Hybrid-Drone)  
-  *Design and simulation of a hybrid drone during internship at Chinese Academy of Sciences.*  
+- 🛩️ [Diamond DA62 SolidWorks Model](https://github.com/jeremiediatta/da62-solidworks) *(en cours)*  
+  Modélisation détaillée de l’avion Diamond DA62 pour mon portfolio & site web.  
 
 ---
 
-### 🔹 Freelance Projects (IngeTalent)
-- [Custom Macros for Clients](https://github.com/JeremieDiatta/Client-Macros)  
-  *Delivered macros for automation in SolidWorks & Excel.*  
+## 🌍 Expérience & Expertise  
+
+- **Industries :** aéronautique, manufacturing, énergies renouvelables.  
+- **Compétences clés :**  
+  - CAO : SolidWorks, CATIA V5, Onshape  
+  - Simulation : ANSYS, Abaqus, SolidWorks Simulation  
+  - Automatisation : VBA (SolidWorks & Excel), Python, MATLAB  
+  - Données & gestion : SAP, Power BI  
 
 ---
 
-## 🌐 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/jeremie-diatta)  
-- [GitHub](https://github.com/JeremieDiatta)  
-- ✉️ contact@ingetalent.com  
+## 🔗 Liens utiles  
+
+- 🌐 [Site IngeTalent](https://jeremiediatta.github.io) *(à venir)*  
+- 💼 [LinkedIn](https://www.linkedin.com/in/jeremie-diatta)  
+- 📧 Contact : **talentinge@gmail.com**  
 
 ---
 
-💡 *This portfolio is powered by GitHub Pages with the Cayman Jekyll theme.*  
+⭐ N’hésite pas à explorer mes projets et à contribuer !
