@@ -1,25 +1,33 @@
-title: "Jeremie DIATTA - IngeTalent"
+title: "Jeremie DIATTA"
 logo: "/img/IngeTalent.png"
-description: "Mechanical Engineer | CAD Automation | FEA | Freelance Consulting"
-show_downloads: false
-google_analytics: UA-XXXXXXXXX-X  # si tu veux tracker les visites plus tard
-theme: jekyll-theme-cayman
+description: "Portfolio | Mechanical Engineer | CAD, FEA, Automation"
 lang: en
+theme: jekyll-theme-minimal
 
-# Liens vers tes profils pro
-social_links:
-  linkedin: "https://www.linkedin.com/in/jeremie-diatta"
-  upwork: "https://www.upwork.com/freelancers/~yourprofile"
-  fiverr: "https://www.fiverr.com/ingetalent"
-  github: "https://github.com/JeremieDiatta"
+# Options
+show_downloads: false
 
-# Options de navigation
+# Personnalisation
+author: "Jeremie DIATTA"
+email: "contact@ingetalent.com"
+github_username: "JeremieDiatta"
+linkedin_username: "jeremie-diatta"
+
+# SEO & Analytics
+google_analytics: UA-XXXXXXXXX-X   # <-- (si tu veux suivre ton trafic, sinon tu supprimes)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation (menu)
 nav:
   - name: "Home"
-    link: "/"
+    link: /
   - name: "Projects"
-    link: "/projects"
+    link: /projects
   - name: "Blog"
-    link: "/blog"
+    link: /blog
+  - name: "About"
+    link: /about
   - name: "Contact"
-    link: "/contact"
+    link: /contact
