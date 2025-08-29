@@ -1,11 +1,56 @@
-title: Jeremie DIATTA
-logo: /img/IngeTalent.png
-description: "Portfolio | Mechanical Engineer | CAD & Automation"
+title: "Jeremie DIATTA"
+logo: "/img/IngeTalent.png"
+description: "Portfolio | Mechanical Engineer | CAD | FEA | Automation"
 show_downloads: false
-theme: jekyll-theme-cayman
+google_analytics: UA-XXXXXXXXX-X  # (tu peux mettre ton ID plus tard)
 lang: en
-google_analytics: UA-XXXXXXXXX-X # si tu veux tracker les visites
-social_links:
-  linkedin: https://www.linkedin.com/in/jeremie-diatta
-  github: https://github.com/jeremiediatta
-  email: ingetalent@gmail.com
+
+# Thème GitHub Pages
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+# Auteur
+author:
+  name: "Jeremie Diatta"
+  avatar: "/img/IngeTalent.png"
+  bio: "Mechanical Engineer | Freelance Consultant @IngeTalent | CAD • FEA • Automation"
+  location: "Senegal • France • International"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jeremie-diatta"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/JeremieDiatta"
+    - label: "Portfolio"
+      icon: "fas fa-globe"
+      url: "https://jeremiediatta.github.io"
+
+# Navigation
+nav:
+  - title: "About Me"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+
+# Collections (pour séparer tes projets et articles)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Social
+twitter_username: ""
+github_username: "JeremieDiatta"
+linkedin_username: "jeremie-diatta"
+
+# Theme settings
+minimal_mistakes_skin: "dark" # (choix: "default", "dark", "air", "contrast")
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
