@@ -1,50 +1,56 @@
-# 👨‍💻 Jeremie DIATTA | Mechanical Engineer & CAD Automation Specialist  
+# 👨‍💻 Jeremie DIATTA – Mechanical Engineer Portfolio
 
-Bienvenue sur mon **portfolio GitHub**.  
-Je suis ingénieur mécanique spécialisé en **CAO/FAO, automatisation, conception de produits et simulation numérique**.  
-Avec une expérience internationale (France, Chine, Pologne, Sénégal), j’accompagne mes clients dans la conception, l’optimisation et l’automatisation de leurs processus.  
-
----
-
-## 🔧 Projets récents (SolidWorks Macros & Automatisation)
-
-- 📐 [SolidWorks Bolt Generator (DIN933)](https://github.com/jeremiediatta/solidworks-bolt-generator)  
-  Génération automatique de boulons hexagonaux normalisés (M1.6 à M48) via macro VBA + interface Excel.  
-
-- 🛠️ [DIN 472 Retaining Rings Generator](https://github.com/jeremiediatta/solidworks-din472-rings)  
-  Macro SolidWorks pour générer automatiquement des circlips internes DIN 472 à partir d’un tableau Excel.  
-
-- 📊 [Excel BOM Automation](https://github.com/jeremiediatta/solidworks-excel-bom)  
-  Export automatisé de nomenclatures (BOM) avec profils soudés, tôlerie et hiérarchisation intelligente dans Excel.  
-
-- ✒️ [Engraving Macro](https://github.com/jeremiediatta/solidworks-engraving-macro)  
-  Macro VBA pour graver automatiquement le nom de la pièce dans une face sélectionnée, centrée et alignée.  
-
-- 📄 [Drawing Automation Pack](https://github.com/jeremiediatta/solidworks-drawing-automation)  
-  Création automatique de mises en plan, projection de vues, alignements, exports DXF/PDF.  
-
-- 🛩️ [Diamond DA62 SolidWorks Model](https://github.com/jeremiediatta/da62-solidworks) *(en cours)*  
-  Modélisation détaillée de l’avion Diamond DA62 pour mon portfolio & site web.  
+Welcome to my GitHub portfolio!  
+I’m a **Mechanical Engineer** specialized in **Product Design, CAD Modeling, FEA (Finite Element Analysis), and Engineering Automation**.  
+Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Element Analysis projects**, and **Mechanical Design works**.
 
 ---
 
-## 🌍 Expérience & Expertise  
+## 🔗 Featured Projects
 
-- **Industries :** aéronautique, manufacturing, énergies renouvelables.  
-- **Compétences clés :**  
-  - CAO : SolidWorks, CATIA V5, Onshape  
-  - Simulation : ANSYS, Abaqus, SolidWorks Simulation  
-  - Automatisation : VBA (SolidWorks & Excel), Python, MATLAB  
-  - Données & gestion : SAP, Power BI  
+### ✈️ Mechanical Design
+- [Diamond DA62 Aircraft Model](projects/aircraft-da62.md)  
+  *Full 3D CAD model of the Diamond DA62 aircraft for portfolio and visualization.*
 
 ---
 
-## 🔗 Liens utiles  
+### 🧮 Finite Element Analysis (FEA)
+- [Static Structural Analysis](projects/fea-static.md)  
+  *Stress and deformation analysis of mechanical components.*  
 
-- 🌐 [Site IngeTalent](https://jeremiediatta.github.io) *(à venir)*  
-- 💼 [LinkedIn](https://www.linkedin.com/in/jeremie-diatta)  
-- 📧 Contact : **talentinge@gmail.com**  
+- [Modal Analysis](projects/fea-modal.md)  
+  *Study of natural frequencies and vibration modes.*  
+
+- [ANSYS APDL Automation](projects/fea-apdl.md)  
+  *Custom APDL scripts for automated simulations.*  
 
 ---
 
-⭐ N’hésite pas à explorer mes projets et à contribuer !
+### ⚙️ SolidWorks Macros & Automation
+- [BOM Export & Processing](projects/solidworks-bom.md)  
+  *Automated Bill of Materials extraction and processing from SolidWorks assemblies.*  
+
+- [DXF Export for Manufacturing](projects/solidworks-dxf.md)  
+  *Macro to export sheet metal and weldment parts as DXF with custom folder structures.*  
+
+---
+
+## 🌍 About Me
+- 🎓 **Mechanical Engineer** with experience in aerospace, manufacturing, and renewable energy  
+- 🌐 International background: **France, China, Poland, Senegal**  
+- 💼 Founder of **IngeTalent** – Freelance engineering consultancy  
+- 🔧 Skilled in **SolidWorks, CATIA V5, ANSYS, Abaqus, Python, MATLAB, VBA**  
+
+📌 Connect with me on [LinkedIn](https://www.linkedin.com/in/jeremie-diatta)  
+
+---
+
+## ⚡ Tech Stack
+- **CAD & Design**: SolidWorks, CATIA V5, Onshape  
+- **FEA & Simulation**: ANSYS, Abaqus, SolidWorks Simulation  
+- **Automation**: VBA for SolidWorks & Excel, Python, MATLAB  
+- **Process Optimization**: SAP, Power BI, Excel automation  
+
+---
+
+✨ *This portfolio is continuously updated with new projects and tools.*  
