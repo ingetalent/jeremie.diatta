@@ -1,20 +1,22 @@
+# ✈️ Aircraft DA62 – 3D CAD Modeling
 
-# Diamond DA62 Aircraft Design in SolidWorks
+## Overview
+This project is a **SolidWorks 2024 3D model** of the Diamond DA62 aircraft.  
+It is based on a physical scale model and designed as a **portfolio showcase project** for advanced surface modeling, assembly, and product design workflows.
 
-![Aircraft DA62](../img/da62-placeholder.png)
+## Features
+- Full-scale aircraft CAD design  
+- Parametric modeling of fuselage, wings, and tail  
+- High-quality rendering for visualization  
+- Assembly with correct geometric constraints  
 
-## 📌 Project Overview
-This project is a **3D CAD modeling study** of the Diamond DA62 aircraft, created in **SolidWorks 2024**.  
-The design was inspired by a scaled miniature model and serves as a **portfolio demonstrator** for large and complex assemblies.
-
-## 🔧 Skills & Tools
-- SolidWorks 2024 (Surface & Solid modeling)  
-- Assembly management & constraints  
-- Parametric design approach  
+## Tools & Skills
+- SolidWorks 2024  
+- Advanced surfacing & assemblies  
 - Rendering & visualization  
 
-## 🚀 Value
-This project highlights my ability to design **aeronautical structures**, manage **complex assemblies**, and create **high-quality parametric models**.
+## Preview
+![Aircraft DA62](../img/da62-preview.png)
 
-## 🔗 Repository
-👉 [View Project on GitHub](../aircraft-da62)
+## Repository
+👉 [View project on GitHub](../aircraft-da62)
