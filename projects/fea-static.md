@@ -1,20 +1,21 @@
-# Static Analysis (FEA)
+# 🏗️ Static Structural Analysis
 
-![Static Analysis](../img/static-placeholder.png)
+## Overview
+This project demonstrates **static finite element analysis (FEA)** applied to industrial components.  
+The goal is to validate **strength, stress, and deformation** under applied loads.
 
-## 📌 Project Overview
-This project includes **static structural simulations** using **ANSYS & SolidWorks Simulation**.  
-The focus is on analyzing stresses, displacements, and safety factors of mechanical components under various loads.  
+## Features
+- Stress and strain distribution  
+- Safety factor calculation  
+- Mesh convergence study  
 
-## 🔧 Skills & Tools
-- ANSYS Workbench  
+## Tools & Skills
 - SolidWorks Simulation  
-- Static analysis & stress evaluation  
-- Safety factor assessment  
+- ANSYS Workbench  
+- Mechanical design validation  
 
-## 🚀 Value
-The project shows my ability to predict **structural integrity** and ensure **reliable product performance**.  
-It is applicable to **mechanical design validation** and **engineering certification processes**.
+## Preview
+![Static Analysis](../img/static-preview.png)
 
-## 🔗 Repository
-👉 [View Project on GitHub](../fea-static)
+## Repository
+👉 [View project on GitHub](../fea-static)
