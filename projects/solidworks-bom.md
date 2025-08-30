@@ -1,19 +1,23 @@
-# SolidWorks BOM Automation Macro
+# 📊 SolidWorks BOM Export Automation
 
-![SolidWorks BOM](../img/bom-placeholder.png)
+## Overview
+A custom **VBA macro** for SolidWorks that extracts **Bill of Materials (BOM)** data directly into Excel.  
+The tool automates repetitive tasks in assembly documentation.
 
-## 📌 Project Overview
-This project contains a **VBA macro for SolidWorks** that automates **Bill of Materials (BOM) extraction** from assemblies.  
-The macro exports structured Excel files with **profiles, weldments, and sheet metal parts** sorted automatically.  
+## Features
+- Export structured BOM with part numbers, quantities, and materials  
+- Custom sorting: weldments, sheet metal, and others  
+- Integration with Excel for reporting  
 
-## 🔧 Skills & Tools
+## Tools & Skills
 - SolidWorks API (VBA)  
 - Excel automation  
-- Assembly & cutlist management  
+- Assembly documentation  
 
-## 🚀 Value
-This macro saves **manual work**, reduces **human error**, and ensures a **clean BOM report** for manufacturing.  
-
-## 🔗 Repository
-👉 [View Project on GitHub](../solidworks-bom)
-
+## Preview
+```vba
+' Example snippet
+Dim swApp As SldWorks.SldWorks
+Dim swModel As SldWorks.ModelDoc2
+Set swApp = Application.SldWorks
+Set swModel = swApp.ActiveDoc
