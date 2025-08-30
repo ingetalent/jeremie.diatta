@@ -1,19 +1,20 @@
-# 📊 FEA Simulation Portfolio
+# Static Analysis (FEA)
 
-A set of **Finite Element Analysis (FEA) projects** using **SolidWorks Simulation and ANSYS**.  
-Focus on **static analysis, modal analysis, and optimization**.
+![Static Analysis](../img/static-placeholder.png)
 
-## ✨ Examples
-- Aircraft wing structural optimization
-- Industrial machine stress analysis
-- Modal frequency validation
-- Automation with ANSYS APDL scripting
+## 📌 Project Overview
+This project includes **static structural simulations** using **ANSYS & SolidWorks Simulation**.  
+The focus is on analyzing stresses, displacements, and safety factors of mechanical components under various loads.  
 
-## 📂 Repository
-👉 [View on GitHub](https://github.com/JeremieDiatta/fea-portfolio)
+## 🔧 Skills & Tools
+- ANSYS Workbench  
+- SolidWorks Simulation  
+- Static analysis & stress evaluation  
+- Safety factor assessment  
 
-## 🛠️ Tech
-- SolidWorks Simulation
-- ANSYS Workbench & APDL
-- MATLAB for post-processing
+## 🚀 Value
+The project shows my ability to predict **structural integrity** and ensure **reliable product performance**.  
+It is applicable to **mechanical design validation** and **engineering certification processes**.
 
+## 🔗 Repository
+👉 [View Project on GitHub](../fea-static)
