@@ -49,7 +49,7 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 - **CAD & Design**: SolidWorks, CATIA V5, Onshape  
 - **FEA & Simulation**: ANSYS, Abaqus, SolidWorks Simulation  
 - **Automation**: VBA for SolidWorks & Excel, Python, MATLAB  
-- **Process Optimization**: SAP, Power BI, Excel automation  
+- **Process Optimization**: SAP, Power BI, Excel automation  s
 
 ---
 
