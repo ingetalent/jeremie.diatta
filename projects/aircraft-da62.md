@@ -21,4 +21,5 @@ It is based on a physical scale model and designed as a **portfolio showcase pro
 ## Repository
 👉 [View project on GitHub](../aircraft-da62)
 
-[⬅️ Back to Projects Page](../README.md#-mechanical-design)
+[⬅️ Back to Mechanical Design](../README.md#️-mechanical-design)
+
