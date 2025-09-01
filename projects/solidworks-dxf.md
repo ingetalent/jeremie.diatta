@@ -17,3 +17,4 @@ This tool automates the **DXF preparation process**, ensuring consistent file or
 ## 🔗 Repository
 👉 [View Project on GitHub](../solidworks-dxf)
 
+[⬅️ Back to Projects Page](../README.md#-solidworks-macros-&-automation)
