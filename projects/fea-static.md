@@ -19,3 +19,5 @@ The goal is to validate **strength, stress, and deformation** under applied load
 
 ## Repository
 👉 [View project on GitHub](../fea-static)
+
+[⬅️ Back to Projects Page](../README.md#-finite-element-analysis-(fea))
