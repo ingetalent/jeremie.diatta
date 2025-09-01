@@ -1,7 +1,7 @@
-# 👨‍💻 Jeremie DIATTA – Mechanical Engineer Portfolio
+# Jeremie DIATTA – Mechanical Engineer Portfolio
 
 Welcome to my GitHub portfolio!  
-I’m a **Mechanical Engineer** specialized in **Product Design, CAD Modeling, FEA (Finite Element Analysis), and Engineering Automation**.  
+I’m a **Mechanical Engineer** specialized in **Product Design, CAD Modeling, FEA (Finite Element Analysis), Project Engineering and Engineering Automation**.  
 Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Element Analysis projects**, and **Mechanical Design works**.
 
 ---
@@ -41,7 +41,7 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 - 💼 Founder of **IngeTalent** – Freelance engineering consultancy  
 - 🔧 Skilled in **SolidWorks, CATIA V5, ANSYS, Abaqus, Python, MATLAB, VBA**  
 
-📌 Connect with me on [LinkedIn](https://www.linkedin.com/in/jeremie-diatta)  
+📌 Connect with me on [LinkedIn](https://www.linkedin.com/in/jeremiediattamechanicalengineer)  
 
 ---
 
