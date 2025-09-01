@@ -1,4 +1,4 @@
-# Jeremie DIATTA – Mechanical Engineer Portfolio
+👨‍💻# Jeremie DIATTA – Mechanical Engineer Portfolio
 
 Welcome to my GitHub portfolio!  
 I’m a **Mechanical Engineer** specialized in **Product Design, CAD Modeling, FEA (Finite Element Analysis), Project Engineering and Engineering Automation**.  
