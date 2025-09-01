@@ -18,4 +18,5 @@ It includes reusable APDL scripts to run custom finite element analyses.
 ## Preview
 apdl
 
-[⬅️ Back to Projects Page](../README.md#-finite-element-analysis-(fea))
+[⬅️ Back to FEA Projects](../README.md#-finite-element-analysis-fea)
+
