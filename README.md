@@ -36,7 +36,7 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 ---
 
 ### 📊 Project Engineering and Market Research
-- [Research on Sustainable Business Subsidies](projects/market-research_subsidies.md)  
+- [Research on Sustainable Business Subsidies](projects/market-research-subsidies.md)  
   *Analysis of government and private funding programs to support eco-friendly industrial projects.*  
 
 - [Market Study on High-Performance Logistics in France](projects/market-research-logistics.md)  
