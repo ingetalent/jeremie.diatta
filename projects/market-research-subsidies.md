@@ -22,3 +22,5 @@ This project explores the landscape of financial subsidies and government suppor
 - Structured subsidy database.
 - Executive summary report highlighting top opportunities.
 
+[⬅️ Back to Projects Page](../README.md#-project-engineering-and-market-research)
+
