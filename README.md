@@ -35,6 +35,18 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 
 ---
 
+### ⚙️ Project Engineering and Market Research
+- [Researching Sustainable Business Subsidies](projects/market-research_subsidies.md)  
+  *Automated Bill of Materials extraction and processing from SolidWorks assemblies.*  
+
+- [Market Research on High Performance Logistics in France](projects/market-research-logistics.md)
+  *Macro to export sheet metal and weldment parts as DXF with custom folder structures.*
+  
+- [Research our customer experience in Wallonia](projects/market-research-customer.md)  
+  *Macro to export sheet metal and weldment parts as DXF with custom folder structures.*  
+
+---
+
 ## 🌍 About Me
 - 🎓 **Mechanical Engineer** with experience in aerospace, manufacturing, and renewable energy  
 - 🌐 International background: **France, China, Poland, Senegal**  
