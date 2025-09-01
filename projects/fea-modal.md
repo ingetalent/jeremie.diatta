@@ -17,3 +17,4 @@ This project demonstrates my ability to integrate **FEA results** into real-worl
 ## 🔗 Repository
 👉 [View Project on GitHub](../fea-modal)
 
+[⬅️ Back to Projects Page](../README.md#-finite-element-analysis-(fea))
