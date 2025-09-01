@@ -22,3 +22,4 @@ This project investigates the current state and future trends of logistics in Fr
 - Market research report with industry insights.
 - Recommendations for companies aiming to optimize logistics operations.
 
+[⬅️ Back to Projects Page](../README.md#-project-engineering-and-market-research)
