@@ -22,4 +22,5 @@ Dim swModel As SldWorks.ModelDoc2
 Set swApp = Application.SldWorks
 Set swModel = swApp.ActiveDoc
 
-[⬅️ Back to Projects Page](../README.md#-solidworks-macros-&-market-automation)
+[⬅️ Back to SolidWorks Macros](../README.md#️-solidworks-macros--automation)
+
