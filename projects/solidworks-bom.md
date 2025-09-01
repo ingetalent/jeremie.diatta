@@ -15,9 +15,11 @@ The tool automates repetitive tasks in assembly documentation.
 - Assembly documentation  
 
 ## Preview
-```vba
+vba
 ' Example snippet
 Dim swApp As SldWorks.SldWorks
 Dim swModel As SldWorks.ModelDoc2
 Set swApp = Application.SldWorks
 Set swModel = swApp.ActiveDoc
+
+[⬅️ Back to Projects Page](../README.md#-solidworks-macros-&-market-automation)
