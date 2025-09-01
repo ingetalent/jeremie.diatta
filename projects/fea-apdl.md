@@ -16,9 +16,6 @@ It includes reusable APDL scripts to run custom finite element analyses.
 - Structural mechanics & optimization  
 
 ## Preview
-```apdl
-! Example APDL snippet
-/prep7
-et,1,solid185
-mp,ex,1,2e5
-mp,prxy,1,0.3
+apdl
+
+[⬅️ Back to Projects Page](../README.md#-finite-element-analysis-(fea))
