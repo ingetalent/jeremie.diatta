@@ -20,14 +20,14 @@ It was inspired by the [LearnSolidWorks tutorial bundle](https://learnsolidworks
 ## 📸 Preview  
 Here is the result of the F1 helmet modeling exercise:  
 
-![F1 Helmet Static View](img/Helmet.JPG)  
 ![Image](https://github.com/user-attachments/assets/cf232f0f-1b07-490a-b370-87cf08b94ff3)
 *SolidWorks surfacing result – static render.*  
 
-![F1 Helmet Design Animation](img/Helmet.gif)  
+![Image](https://github.com/user-attachments/assets/a53d71d9-b5f9-473b-b239-12b851e0fe18)
 *Design process and surfacing workflow.*  
 
-## ✅ Outcome  
+## ✅ Outcome 
+
 This project highlights how **surfacing techniques** in SolidWorks can be leveraged to design **ergonomic and aerodynamic consumer products**. The skills developed here are directly applicable to **automotive, aerospace, and industrial design** projects.  
 
 ---
