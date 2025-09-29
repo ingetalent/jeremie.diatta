@@ -12,6 +12,9 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 - [Diamond DA62 Aircraft Model](projects/aircraft-da62.md)  
   *Full 3D CAD model of the Diamond DA62 aircraft for portfolio and visualization.*
 
+- [F1 Helmet Design](projects/f1helmet.md)  
+  *Full 3D CAD model of Formula 1 racing helmet using advanced SolidWorks surfacing and design techniques.*
+
 ---
 
 ### 🧮 Finite Element Analysis (FEA)
