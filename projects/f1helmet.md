@@ -21,6 +21,7 @@ It was inspired by the [LearnSolidWorks tutorial bundle](https://learnsolidworks
 Here is the result of the F1 helmet modeling exercise:  
 
 ![F1 Helmet Static View](img/Helmet.JPG)  
+![Image](https://github.com/user-attachments/assets/cf232f0f-1b07-490a-b370-87cf08b94ff3)
 *SolidWorks surfacing result – static render.*  
 
 ![F1 Helmet Design Animation](img/Helmet.gif)  
