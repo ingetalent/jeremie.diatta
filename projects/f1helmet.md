@@ -20,10 +20,10 @@ It was inspired by the [LearnSolidWorks tutorial bundle](https://learnsolidworks
 ## 📸 Preview  
 Here is the result of the F1 helmet modeling exercise:  
 
-![F1 Helmet Static View](../assets/f1helmet.png)  
+![F1 Helmet Static View](img/Helmet.JPG)  
 *SolidWorks surfacing result – static render.*  
 
-![F1 Helmet Design Animation](../assets/f1helmet.gif)  
+![F1 Helmet Design Animation](img/Helmet.gif)  
 *Design process and surfacing workflow.*  
 
 ## ✅ Outcome  
