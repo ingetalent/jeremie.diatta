@@ -21,10 +21,10 @@ It was inspired by the [LearnSolidWorks tutorial bundle](https://learnsolidworks
 Here is the result of the F1 helmet modeling exercise:  
 
 ![Image](https://github.com/user-attachments/assets/cf232f0f-1b07-490a-b370-87cf08b94ff3)
-*SolidWorks surfacing result – static render.*  
+                *SolidWorks surfacing result – static render.*  
 
 ![Image](https://github.com/user-attachments/assets/a53d71d9-b5f9-473b-b239-12b851e0fe18)
-*Design process and surfacing workflow.*  
+                *Design process and surfacing workflow.*  
 
 ## ✅ Outcome 
 
