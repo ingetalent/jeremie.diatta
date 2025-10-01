@@ -34,6 +34,9 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
   *Automated Bill of Materials extraction and processing from SolidWorks assemblies.*
 
  - [Balcony Design Automation](projects/balcony-project.md)  
+  *Automation of balustrade (balcony railing) design in SolidWorks .*
+
+ - [RAL Color And Property Management](projects/ral-and-property-management-macro.md)  
   *Automation of balustrade (balcony railing) design in SolidWorks .* 
 
 - [DXF Export for Manufacturing](projects/solidworks-dxf.md)  
