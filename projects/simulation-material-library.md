@@ -38,8 +38,9 @@ It streamlines the process of preparing parts and assemblies for **Finite Elemen
   <em>UserForm for selecting and managing materials for SolidWorks Simulation.</em>
 </p>
 
+
+![Image](https://github.com/user-attachments/assets/a989e533-4025-4436-99ac-bc8e9f86e3a9)
 <p align="center">
-  <img src="../assets/material-application-demo.gif" alt="Applying Materials in SolidWorks" width="600"><br>
   <em>Macro in action – reading materials from Excel, adding them to the library, and applying them automatically.</em>
 </p>
 
