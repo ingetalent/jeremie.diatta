@@ -1,55 +1,61 @@
-# 🏢 SolidWorks Balcony Design & Automation
+# 🏢 SolidWorks Balcony Automation Project
 
-This project demonstrates the use of **SolidWorks** for architectural and structural design automation.  
-The goal was to create a **balcony model** with configurable parameters and to automate the export of manufacturing files.
+This project involved the automation of **balustrade (balcony railing) design** in SolidWorks.  
+The client required a solution where the **balustrade assembly adapts automatically** to site measurements, with post spacing, glass panel dimensions, and heights updating dynamically.
 
 ---
 
 ## 🔹 Project Overview
-The balcony project focused on:
-- Designing a **parametric balcony assembly** with railings, panels, and supports.  
-- Automating **BOM (Bill of Materials) extraction** for all components.  
-- Exporting **sheet metal and weldment parts as DXF** files in structured folders for manufacturing.  
-- Simplifying the workflow for repetitive architectural elements.
+- **Objective**: Automate the creation of balcony assemblies where:
+  - Post spacing is calculated automatically based on maximum allowed distance.
+  - Number of posts adapts dynamically to the balcony size.
+  - Glass panel dimensions adjust automatically while maintaining required offsets.
+  - Overall height is adjustable while keeping handrails, clamps, and gaps consistent.
+- **Deliverable**: A **SolidWorks macro with userform** that links to an **Excel post spacing calculator**, enabling automatic updates of the assembly.
 
 ---
 
 ## 🛠 Tools & Methods
-- **SolidWorks 2024** (Assemblies, Sheet Metal, Weldments)  
-- **VBA Macros** for:
-  - BOM extraction and formatting  
-  - DXF export with folder organization by material and thickness  
-  - File renaming and revision management  
+- **SolidWorks 2024** Assemblies, Weldments, and Sheet Metal
+- **VBA for SolidWorks API**:
+  - Macro with UserForm interface
+  - Reads dimension values from Excel
+  - Updates posts, glass panels, and handrail heights
+- **Excel Integration**:
+  - Post Spacing Calculator.xlsx used for spacing logic
+  - Normalized and non-normalized site dimensions supported
 
 ---
 
 ## 📸 Project Media
+
+![Image](https://github.com/user-attachments/assets/79036c9d-a0ee-4f29-a604-5c0b7da6a42f)
 <p align="center">
-  <img src="../assets/balcony-static.png" alt="SolidWorks Balcony Assembly - Static Render" width="600"><br>
-  <em>SolidWorks balcony assembly – static render view.</em>
+  <em>SolidWorks Balcony Assembly – parametric model with posts and glass panels.</em>
 </p>
 
+
+![Image](https://github.com/user-attachments/assets/9695122e-4a8c-45dc-9d86-4602e98ff08a)
 <p align="center">
-  <img src="../assets/balcony-drawing.png" alt="SolidWorks Balcony Drawing with BOM" width="600"><br>
-  <em>2D drawing of the balcony assembly with BOM table.</em>
+  <em>Macro demo – resizing and post/glass recalculation based on Excel input.</em>
 </p>
 
 ---
 
 ## 📂 Deliverables
 - **SolidWorks Assembly File** – parametric balcony model  
-- **Drawing File** – including BOM table and detail views  
-- **DXF Exports** – ready for manufacturing  
-- **Macro Code** – VBA scripts for BOM and DXF automation  
+- **Excel Post Spacing Calculator** – driving dimensions and logic  
+- **SolidWorks VBA Macro** – automation for posts, glass, and height adjustments  
+- **Video Demos** – showing resizing, recalculation, and assembly automation  
 
 ---
 
 ## 🎯 Key Learnings
-- Applied **SolidWorks automation** to an architectural use case  
-- Improved efficiency by eliminating manual DXF export steps  
-- Structured BOM and manufacturing data for real-world usability  
+- Applied **SolidWorks API** to a real-world architectural engineering problem  
+- Integrated **Excel logic with CAD automation** for adaptive design  
+- Optimized workflow by eliminating manual recalculation of posts and panels  
+- Ensured scalability for different balcony sizes and configurations  
 
 ---
 
 [🔙 Back to Projects](../README.md)
-
