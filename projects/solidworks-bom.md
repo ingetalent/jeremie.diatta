@@ -16,11 +16,9 @@ The tool automates repetitive tasks in assembly documentation.
 
 ## Preview
 vba
-' Example snippet
-Dim swApp As SldWorks.SldWorks
-Dim swModel As SldWorks.ModelDoc2
-Set swApp = Application.SldWorks
-Set swModel = swApp.ActiveDoc
+![Image](https://github.com/user-attachments/assets/ff8657e6-6936-42d4-9cb1-bfdcd94dbf34)
+
+![Image](https://github.com/user-attachments/assets/2fce5330-c1c3-4f34-88ec-96fde987f66e)
 
 [⬅️ Back to SolidWorks Macros](../README.md#️-solidworks-macros--automation)
 
