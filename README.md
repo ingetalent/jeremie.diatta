@@ -31,7 +31,10 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
 
 ### ⚙️ SolidWorks Macros & Automation
 - [BOM Export & Processing](projects/solidworks-bom.md)  
-  *Automated Bill of Materials extraction and processing from SolidWorks assemblies.*  
+  *Automated Bill of Materials extraction and processing from SolidWorks assemblies.*
+
+ - [Balcony Design Automation](projects/balcony-project.md)  
+  *Automation of **balustrade (balcony railing) design** in SolidWorks .* 
 
 - [DXF Export for Manufacturing](projects/solidworks-dxf.md)  
   *Macro to export sheet metal and weldment parts as DXF with custom folder structures.*  
