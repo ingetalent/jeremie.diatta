@@ -27,7 +27,7 @@ Here is the result of the F1 helmet modeling exercise:
 
 ![Image](https://github.com/user-attachments/assets/a53d71d9-b5f9-473b-b239-12b851e0fe18)
 <p align="center">
-<em>Design process and surfacing workflow.</em>
+<em>Rendering and Animation.</em>
 </p> 
 
 ## ✅ Outcome 
