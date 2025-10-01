@@ -1,0 +1,63 @@
+# 🎨 SolidWorks RAL Color & Property Management Macro
+
+This project focused on creating a **SolidWorks macro with a UserForm** to manage **RAL colors, feature visibility, and custom properties** efficiently.  
+The solution helps engineers and designers standardize colors while maintaining accurate metadata in parts and assemblies.
+
+---
+
+## 🔹 Project Overview
+- **Objective**: Simplify the process of:
+  - Applying standardized **RAL colors** to parts and assemblies
+  - **Hiding/unhiding features** interactively from a macro
+  - Adding, updating, and managing **custom properties** (e.g., Material, Finish, Project Code) via a UserForm
+  - Exchanging property data with **Excel** for reporting and documentation
+- **Deliverable**: A **VBA macro with a modern UserForm** embedded into SolidWorks, providing engineers a centralized tool for color and property management.
+
+---
+
+## 🛠 Tools & Features
+- **SolidWorks 2024**
+- **VBA Macro & UserForm** with:
+  - Dropdown list with predefined **RAL colors**
+  - Checkboxes for **feature hide/unhide**
+  - Text fields for **custom property entry and modification**
+  - **Transmit to 3D** button → Applies the values entered in the UserForm directly to the model  
+  - **Read from 3D** button → Extracts selected custom properties from the active model, copies them into the clipboard, and allows pasting them into **Excel** for reporting
+- **Custom Properties API** used to ensure metadata consistency across assemblies and parts
+
+---
+
+## 📸 Project Media
+<p align="center">
+  <img src="../assets/ral-color-form.png" alt="RAL Color UserForm" width="500"><br>
+  <em>Custom UserForm for RAL color selection, property management, and data exchange.</em>
+</p>
+
+<p align="center">
+  <img src="../assets/ral-color-application.gif" alt="Applying RAL Colors in SolidWorks" width="600"><br>
+  <em>Macro in action – applying RAL colors, hiding features, updating custom properties, and transmitting data to Excel.</em>
+</p>
+
+---
+
+## 📂 Deliverables
+- **SolidWorks VBA Macro** with UserForm  
+- Predefined **RAL Color Database** integrated into dropdown list  
+- Full support for:
+  - **Property editing and transmission to 3D**
+  - **Color application**
+  - **Feature visibility toggling**
+  - **Property extraction to clipboard for Excel use**  
+- Video demo showing real workflow usage  
+
+---
+
+## 🎯 Key Learnings
+- Enhanced **user interaction in SolidWorks macros** using UserForms  
+- Leveraged **API for color, feature, and property control**  
+- Created a reliable **two-way data exchange** between SolidWorks and Excel (via clipboard)  
+- Improved **workflow efficiency** for large projects requiring consistent RAL colors and structured metadata  
+
+---
+
+[🔙 Back to Projects](../README.md)
