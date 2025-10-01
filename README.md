@@ -39,8 +39,8 @@ Here you’ll find a collection of my **SolidWorks VBA Macros**, **Finite Elemen
  - [RAL Color And Property Management](projects/ral-and-property-management-macro.md)  
   *Automation of balustrade (balcony railing) design in SolidWorks .* 
 
-- [DXF Export for Manufacturing](projects/solidworks-dxf.md)  
-  *Macro to export sheet metal and weldment parts as DXF with custom folder structures.*  
+- [Simulation Material Library](projects/simulation-material-library.md)  
+  *Automate material assignment for parts and assemblies.*  
 
 ---
 
