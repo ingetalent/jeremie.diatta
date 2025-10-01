@@ -60,4 +60,4 @@ The solution helps engineers and designers standardize colors while maintaining 
 
 ---
 
-[🔙 Back to Projects](../README.md)
+[🔙 Back to Projects](../README.md#-project-solidWorks-macros-&-automation)
