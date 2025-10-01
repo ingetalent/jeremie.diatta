@@ -33,8 +33,8 @@ It streamlines the process of preparing parts and assemblies for **Finite Elemen
 ---
 
 ## 📸 Project Media
+![Image](https://github.com/user-attachments/assets/7f314ee8-8144-45ac-8d62-011b1f9f7629)
 <p align="center">
-  ![Image](https://github.com/user-attachments/assets/7f314ee8-8144-45ac-8d62-011b1f9f7629)
   <em>UserForm for selecting and managing materials for SolidWorks Simulation.</em>
 </p>
 
