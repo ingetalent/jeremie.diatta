@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Jeremie DIATTA — Mechanical Engineer &amp; Automation</title>
-<meta name="description" content="Mechanical Engineer specialized in 3D CAD, FEA Simulation and Engineering Automation. Founder of IngeTalent. Available for freelance and full-time roles."/>
+<title>Jeremie DIATTA - Mechanical Engineer &amp; Automation</title>
+<meta name="description" content="Mechanical Engineer (M.Sc. and MBA, UTBM) specialized in 3D CAD, FEA Simulation and Engineering Automation. Founder of IngeTalent. Available for freelance and full-time roles."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
@@ -21,7 +21,7 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
 nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:18px 52px;background:rgba(9,9,12,.94);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
 .nav-logo{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:.1em;color:var(--white);text-decoration:none;}
 .nav-logo em{color:var(--accent);font-style:normal;}
-.nav-links{display:flex;gap:28px;list-style:none;align-items:center;}
+.nav-links{display:flex;gap:24px;list-style:none;align-items:center;}
 .nav-links a{text-decoration:none;color:var(--text2);font-size:11.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;transition:color .2s;}
 .nav-links a:hover{color:var(--accent);}
 .nav-cta{background:var(--accent)!important;color:var(--bg)!important;padding:7px 18px;border-radius:2px;font-weight:700!important;}
@@ -95,10 +95,8 @@ section{position:relative;z-index:1;}
 .pc.feat{grid-column:span 8;}
 .pc.sm{grid-column:span 4;}
 .pc.half{grid-column:span 6;}
-.pc.third{grid-column:span 4;}
 .pv{display:flex;align-items:center;justify-content:center;font-size:56px;position:relative;overflow:hidden;height:190px;}
 .pc.feat .pv{height:250px;font-size:74px;}
-.pve{position:relative;z-index:1;}
 .pimg{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:.7;}
 .pbdg{position:absolute;top:14px;right:14px;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:2px;background:rgba(9,9,12,.85);border:1px solid var(--border);color:var(--text2);}
 .pb{padding:26px;flex:1;display:flex;flex-direction:column;}
@@ -109,42 +107,20 @@ section{position:relative;z-index:1;}
 .tp{font-family:'DM Mono',monospace;font-size:10.5px;color:var(--accent2);background:rgba(74,158,255,.08);border:1px solid rgba(74,158,255,.2);padding:3px 8px;border-radius:2px;}
 .pl{display:inline-flex;align-items:center;gap:7px;margin-top:18px;color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;transition:gap .2s;}
 .pl:hover{gap:12px;}
-#repos{background:var(--bg2);border-top:1px solid var(--border);}
-.rg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:56px;}
-.rc{background:var(--bg3);border:1px solid var(--border);border-radius:2px;padding:24px;text-decoration:none;display:flex;flex-direction:column;gap:10px;transition:all .25s;position:relative;overflow:hidden;}
-.rc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .3s;}
-.rc:hover{border-color:rgba(240,201,58,.35);transform:translateY(-3px);box-shadow:0 16px 36px rgba(0,0,0,.4);}
-.rc:hover::before{transform:scaleX(1);}
-.rc-top{display:flex;align-items:center;justify-content:space-between;}
-.rc-icon{font-size:22px;}
-.rc-type{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text3);background:var(--surface);border:1px solid var(--border);padding:3px 8px;border-radius:2px;}
-.rc-name{font-family:'DM Mono',monospace;font-size:14px;color:var(--accent);font-weight:500;margin-top:4px;}
-.rc-desc{font-size:13.5px;color:var(--text2);line-height:1.65;font-weight:400;flex:1;}
-.rc-footer{display:flex;align-items:center;gap:12px;margin-top:8px;padding-top:14px;border-top:1px solid var(--border);}
-.rc-lang{font-size:12px;color:var(--text2);display:flex;align-items:center;gap:5px;}
-.rc-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
-.rc-stat{font-size:11px;color:var(--text3);}
-.rc-arrow{margin-left:auto;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);opacity:0;transition:opacity .2s;}
-.rc:hover .rc-arrow{opacity:1;}
-.rc-more{align-items:center;justify-content:center;border-style:dashed;min-height:180px;}
-.rc-more-inner{text-align:center;}
-.rc-more:hover{border-color:var(--accent);border-style:solid;}
 #skills{background:var(--bg);border-top:1px solid var(--border);}
 .skl{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:56px;align-items:start;}
 .skg{margin-bottom:32px;}
 .skgn{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text3);margin-bottom:18px;display:flex;align-items:center;gap:11px;}
 .skgn::after{content:'';flex:1;height:1px;background:var(--border);}
-.ski{margin-bottom:14px;}
-.skh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+.ski{margin-bottom:16px;padding-left:14px;border-left:2px solid var(--skc,var(--accent));}
 .skn{font-size:14px;color:var(--text);font-weight:500;}
-.sklv{font-family:'DM Mono',monospace;font-size:11px;color:var(--text3);}
-.skb{height:3px;background:var(--border);border-radius:2px;overflow:hidden;}
-.skf{height:100%;border-radius:2px;transform:scaleX(0);transform-origin:left;transition:transform 1.1s cubic-bezier(.22,1,.36,1);}
-.skl.anim .skf{transform:scaleX(1);}
-.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;}
-.ti{background:var(--bg3);border:1px solid var(--border);border-radius:2px;padding:14px;text-align:center;transition:all .2s;cursor:default;}
+.sku{font-size:12.5px;color:var(--text2);line-height:1.6;margin-top:3px;}
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:9px;}
+.ti{background:var(--bg3);border:1px solid var(--border);border-radius:2px;padding:10px;text-align:center;transition:all .2s;cursor:default;display:flex;flex-direction:column;gap:8px;}
 .ti:hover{border-color:rgba(240,201,58,.35);background:var(--surface);}
-.tic{font-size:20px;margin-bottom:6px;}
+.tlogo{background:#f2f4f8;border-radius:2px;height:54px;display:flex;align-items:center;justify-content:center;padding:8px;}
+.tlogo svg,.tlogo img{max-height:32px;max-width:100%;width:auto;height:auto;display:block;}
+.tlogo svg{height:32px;}
 .tin{font-size:11px;color:var(--text2);font-weight:500;}
 .itags{display:flex;flex-wrap:wrap;gap:9px;margin-top:32px;}
 .itag{font-size:12px;padding:5px 13px;border-radius:2px;font-weight:500;}
@@ -166,16 +142,21 @@ section{position:relative;z-index:1;}
 .hlt{font-size:13px;color:var(--text2);line-height:1.6;}
 .hlt strong{color:var(--white);display:block;font-weight:600;margin-bottom:3px;}
 #experience{background:var(--bg);border-top:1px solid var(--border);}
+#education{background:var(--bg2);border-top:1px solid var(--border);}
 .tl{margin-top:52px;position:relative;}
 .tl::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:var(--border);}
 .tli{padding:0 0 44px 38px;position:relative;}
 .tli::before{content:'';position:absolute;left:-4px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--bg),0 0 0 5px rgba(240,201,58,.25);}
+#education .tli::before{box-shadow:0 0 0 3px var(--bg2),0 0 0 5px rgba(240,201,58,.25);}
 .tlp{font-family:'DM Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:.1em;margin-bottom:7px;}
 .tlr{font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--white);letter-spacing:.04em;margin-bottom:4px;}
 .tlc{font-size:13.5px;color:var(--text2);font-weight:500;margin-bottom:11px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
 .loc{font-family:'DM Mono',monospace;font-size:10px;color:var(--text3);background:var(--bg3);border:1px solid var(--border);padding:2px 8px;border-radius:2px;}
 .tld{font-size:14px;color:var(--text2);line-height:1.75;font-weight:400;max-width:580px;}
-#contact{background:var(--bg2);border-top:1px solid var(--border);}
+.tll{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;max-width:640px;}
+.tll a{font-size:12px;color:var(--accent2);background:rgba(74,158,255,.08);border:1px solid rgba(74,158,255,.2);padding:4px 10px;border-radius:2px;text-decoration:none;transition:border-color .2s;}
+.tll a:hover{border-color:var(--accent2);}
+#contact{background:var(--bg);border-top:1px solid var(--border);}
 .ctl{display:grid;grid-template-columns:1.2fr 1fr;gap:72px;align-items:start;}
 .cth{font-family:'Bebas Neue',sans-serif;font-size:clamp(38px,5.5vw,76px);color:var(--white);line-height:.94;letter-spacing:.02em;margin-bottom:22px;}
 .al{color:var(--accent);display:block;}
@@ -194,8 +175,8 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
 .fc{font-size:12px;color:var(--text3);}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .65s ease,transform .65s ease;}
 .rv.in{opacity:1;transform:translateY(0);}
-@media(max-width:1080px){.orbit-wrap{display:none;}.skl{grid-template-columns:1fr;gap:36px;}.abl{grid-template-columns:1fr;}.ctl{grid-template-columns:1fr;gap:40px;}.pc.feat{grid-column:span 12;}.pc.sm{grid-column:span 6;}.pc.half{grid-column:span 12;}.pc.third{grid-column:span 6;}}
-@media(max-width:720px){nav{padding:14px 20px;}.nav-links{display:none;}.wrap{padding:56px 20px;}#hero{padding:96px 20px 56px;}.kpis{gap:22px;}.pc.sm,.pc.third{grid-column:span 12;}.abhl{grid-template-columns:1fr;}footer{padding:20px;}}
+@media(max-width:1080px){.orbit-wrap{display:none;}.skl{grid-template-columns:1fr;gap:36px;}.abl{grid-template-columns:1fr;}.ctl{grid-template-columns:1fr;gap:40px;}.pc.feat{grid-column:span 12;}.pc.sm{grid-column:span 6;}.pc.half{grid-column:span 12;}}
+@media(max-width:720px){nav{padding:14px 20px;}.nav-links{display:none;}.wrap{padding:56px 20px;}#hero{padding:96px 20px 56px;}.kpis{gap:22px;}.pc.sm{grid-column:span 12;}.abhl{grid-template-columns:1fr;}footer{padding:20px;}}
 </style>
 </head>
 <body>
@@ -208,6 +189,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
     <li><a href="#skills">Skills</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
     <li><a href="#contact" class="nav-cta">Hire Me</a></li>
   </ul>
 </nav>
@@ -219,7 +201,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
     <div class="eyebrow">Available for freelance and full-time roles</div>
     <h1>JEREMIE<br><span class="gold">DIATTA</span></h1>
     <p class="hero-role">Mechanical Engineer and Automation Specialist</p>
-    <p class="hero-desc">I design <strong>precision mechanical systems</strong> and automate engineering workflows, from <strong>3D CAD and FEA simulation</strong> to custom <strong>Python and VBA tooling</strong>. Founder of <strong>IngeTalent</strong>.</p>
+    <p class="hero-desc">I design <strong>precision mechanical systems</strong> and automate engineering workflows, from <strong>3D CAD and FEA simulation</strong> to custom <strong>Python and VBA tooling</strong>. M.Sc. and MBA from <strong>UTBM</strong>. Founder of <strong>IngeTalent</strong>.</p>
     <div class="btns">
       <a href="#projects" class="btn-a">View My Work &nbsp;→</a>
       <a href="#contact" class="btn-b">Get In Touch</a>
@@ -227,7 +209,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
     <div class="kpis">
       <div><div class="kn">6<sup>+</sup></div><div class="kl">Years Experience</div></div>
       <div><div class="kn">4<sup>+</sup></div><div class="kl">Countries</div></div>
-      <div><div class="kn">43<sup>+</sup></div><div class="kl">Projects</div></div>
+      <div><div class="kn">50<sup>+</sup></div><div class="kl">Projects</div></div>
       <div><div class="kn">3</div><div class="kl">Core Specialties</div></div>
     </div>
   </div>
@@ -250,7 +232,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
       <p class="ssub">End-to-end mechanical engineering expertise, from 3D concept to simulation to automated production tools.</p>
     </div>
     <div class="sg rv">
-      <div class="sc" style="--sca:#f0c93a"><span class="si">🏗️</span><div class="sn">3D CAD Design and Modeling</div><p class="sd">Full product design from concept to manufacturing-ready models. Advanced surfacing, multi-body assemblies, and detailed engineering drawings with GD&amp;T.</p><div class="stags"><span class="stag">SolidWorks</span><span class="stag">CATIA V5</span><span class="stag">Onshape</span><span class="stag">GD&amp;T</span></div></div>
+      <div class="sc" style="--sca:#f0c93a"><span class="si">🏗️</span><div class="sn">3D CAD Design and Modeling</div><p class="sd">Full product design from concept to manufacturing-ready models. Advanced surfacing, multi-body assemblies, and detailed engineering drawings.</p><div class="stags"><span class="stag">SolidWorks</span><span class="stag">CATIA V5</span><span class="stag">Onshape</span></div></div>
       <div class="sc" style="--sca:#4a9eff"><span class="si">🔬</span><div class="sn">FEA and Simulation</div><p class="sd">Structural, modal, and thermal finite element analysis. Validate designs before prototyping, reduce cost, risk, and time to market with simulation-driven decisions.</p><div class="stags"><span class="stag">ANSYS</span><span class="stag">Abaqus</span><span class="stag">SW Simulation</span><span class="stag">APDL</span></div></div>
       <div class="sc" style="--sca:#f05a28"><span class="si">⚡</span><div class="sn">Engineering Automation</div><p class="sd">Custom VBA macros and Python scripts that eliminate repetitive tasks, including BOM extraction, parametric design generation, DXF export, material assignment, and report workflows.</p><div class="stags"><span class="stag">VBA</span><span class="stag">Python</span><span class="stag">SolidWorks API</span><span class="stag">Excel</span></div></div>
       <div class="sc" style="--sca:#a855f7"><span class="si">📐</span><div class="sn">Project Engineering</div><p class="sd">Technical project management, supplier coordination, design reviews, and full documentation. From specification to delivery across aerospace, energy, and manufacturing sectors.</p><div class="stags"><span class="stag">SAP</span><span class="stag">Power BI</span><span class="stag">Agile</span><span class="stag">ISO Standards</span></div></div>
@@ -267,7 +249,6 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
         <button class="ftab" onclick="fp('cad',this)">CAD</button>
         <button class="ftab" onclick="fp('fea',this)">FEA</button>
         <button class="ftab" onclick="fp('auto',this)">Automation</button>
-        <button class="ftab" onclick="fp('research',this)">Research</button>
       </div>
     </div>
     <div class="pg rv">
@@ -383,89 +364,61 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
         </div>
       </div>
 
-      <div class="pc third" data-cat="research">
-        <div class="pv" style="background:linear-gradient(135deg,#061408,#0c2010)">
-        </div>
-        <div class="pb">
-          <div class="pn">Sustainable Business Subsidies</div>
-          <p class="pdesc">Analysis of EU and national government subsidy programs for green industrial projects. Structured database and executive report highlighting top opportunities for SMEs in renewable energy, sustainable mobility, and eco-manufacturing.</p>
-          <div class="pt"><span class="tp">Market Research</span><span class="tp">EU Funding</span><span class="tp">Sustainability</span></div>
-          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-subsidies.md" target="_blank" class="pl">View →</a>
-        </div>
-      </div>
-
-      <div class="pc third" data-cat="research">
-        <div class="pv" style="background:linear-gradient(135deg,#080e18,#0e1828)">
-        </div>
-        <div class="pb">
-          <div class="pn">High-Performance Logistics in France</div>
-          <p class="pdesc">Assessment of digitalization, automation, and last-mile delivery trends in French logistics benchmarked against European best practices. Expert interviews and case studies of leading French companies.</p>
-          <div class="pt"><span class="tp">Market Research</span><span class="tp">Logistics</span><span class="tp">France</span></div>
-          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-logistics.md" target="_blank" class="pl">View →</a>
-        </div>
-      </div>
-
-      <div class="pc third" data-cat="research">
-        <div class="pv" style="background:linear-gradient(135deg,#130814,#1e0e20)">
-        </div>
-        <div class="pb">
-          <div class="pn">Customer Experience in Wallonia</div>
-          <p class="pdesc">Survey-based analysis of customer satisfaction, pain points, and service expectations across Wallonia. Strategic roadmap delivered for improving customer loyalty programs and response quality.</p>
-          <div class="pt"><span class="tp">Market Research</span><span class="tp">CX Strategy</span><span class="tp">Wallonia</span></div>
-          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-customer.md" target="_blank" class="pl">View →</a>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
 
 <section id="skills">
   <div class="wrap">
-    <div class="rv"><span class="lbl">Tech Stack</span><h2 class="stitle">SKILLS AND<br>TOOLS</h2></div>
+    <div class="rv"><span class="lbl">Tech Stack</span><h2 class="stitle">SKILLS AND<br>TOOLS</h2>
+      <p class="ssub">Where each tool has been used, in professional, personal and academic projects.</p></div>
     <div class="skl rv" id="skl">
       <div>
         <div class="skg">
           <div class="skgn">CAD and Design</div>
-          <div class="ski"><div class="skh"><span class="skn">SolidWorks</span><span class="sklv">Expert</span></div><div class="skb"><div class="skf" style="width:95%;background:var(--accent)"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">CATIA V5</span><span class="sklv">Advanced</span></div><div class="skb"><div class="skf" style="width:84%;background:var(--accent);transition-delay:.08s"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">Onshape</span><span class="sklv">Proficient</span></div><div class="skb"><div class="skf" style="width:70%;background:var(--accent);transition-delay:.16s"></div></div></div>
+          <div class="ski" style="--skc:var(--accent)"><div class="skn">SolidWorks</div><div class="sku">Featured in: F1 Racing Helmet, Diamond DA62, Balcony Design Automation</div></div>
+          <div class="ski" style="--skc:var(--accent)"><div class="skn">CATIA V5</div><div class="sku">Used in: Chinese Academy of Sciences (Guangzhou), drone design project, engineering classes</div></div>
+          <div class="ski" style="--skc:var(--accent)"><div class="skn">Onshape</div><div class="sku">Educational projects only</div></div>
         </div>
         <div class="skg">
           <div class="skgn">FEA and Simulation</div>
-          <div class="ski"><div class="skh"><span class="skn">ANSYS Mechanical and APDL</span><span class="sklv">Advanced</span></div><div class="skb"><div class="skf" style="width:85%;background:var(--accent2)"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">SolidWorks Simulation</span><span class="sklv">Advanced</span></div><div class="skb"><div class="skf" style="width:88%;background:var(--accent2);transition-delay:.08s"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">Abaqus</span><span class="sklv">Proficient</span></div><div class="skb"><div class="skf" style="width:66%;background:var(--accent2);transition-delay:.16s"></div></div></div>
+          <div class="ski" style="--skc:var(--accent2)"><div class="skn">ANSYS Mechanical and APDL</div><div class="sku">Featured in: Static Structural Analysis, Modal Analysis, ANSYS APDL Automation</div></div>
+          <div class="ski" style="--skc:var(--accent2)"><div class="skn">SolidWorks Simulation</div><div class="sku">Used in: Static Structural Analysis, project tutorials, design validation project</div></div>
+          <div class="ski" style="--skc:var(--accent2)"><div class="skn">Abaqus</div><div class="sku">Educational use only: material project</div></div>
         </div>
         <div class="skg">
           <div class="skgn">Automation and Programming</div>
-          <div class="ski"><div class="skh"><span class="skn">VBA, SolidWorks and Excel</span><span class="sklv">Expert</span></div><div class="skb"><div class="skf" style="width:92%;background:var(--accent3)"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">Python</span><span class="sklv">Advanced</span></div><div class="skb"><div class="skf" style="width:80%;background:var(--accent3);transition-delay:.08s"></div></div></div>
-          <div class="ski"><div class="skh"><span class="skn">MATLAB</span><span class="sklv">Proficient</span></div><div class="skb"><div class="skf" style="width:68%;background:var(--accent3);transition-delay:.16s"></div></div></div>
+          <div class="ski" style="--skc:var(--accent3)"><div class="skn">VBA, SolidWorks API and Excel</div><div class="sku">Featured in: Balcony Design Automation, BOM Export and Processing, RAL Color and Property Manager, Simulation Material Library</div></div>
+          <div class="ski" style="--skc:var(--accent3)"><div class="skn">Python</div><div class="sku">Used in: simulation project, automation project, engineering classes</div></div>
+          <div class="ski" style="--skc:var(--accent3)"><div class="skn">MATLAB and Simulink</div><div class="sku">Used in: engineering classes, mechanical and industrial projects, image processing, drone project</div></div>
         </div>
       </div>
       <div>
         <div class="skgn" style="margin-bottom:16px;">Tools and Platforms</div>
         <div class="tg">
-          <div class="ti"><div class="tic">🔩</div><div class="tin">SolidWorks</div></div>
-          <div class="ti"><div class="tic">✈️</div><div class="tin">CATIA V5</div></div>
-          <div class="ti"><div class="tic">📐</div><div class="tin">Onshape</div></div>
-          <div class="ti"><div class="tic">📊</div><div class="tin">ANSYS</div></div>
-          <div class="ti"><div class="tic">🔬</div><div class="tin">Abaqus</div></div>
-          <div class="ti"><div class="tic">🐍</div><div class="tin">Python</div></div>
-          <div class="ti"><div class="tic">📋</div><div class="tin">VBA/Macros</div></div>
-          <div class="ti"><div class="tic">📉</div><div class="tin">Power BI</div></div>
-          <div class="ti"><div class="tic">🏭</div><div class="tin">SAP</div></div>
-          <div class="ti"><div class="tic">📁</div><div class="tin">MATLAB</div></div>
-          <div class="ti"><div class="tic">🔧</div><div class="tin">SW API</div></div>
-          <div class="ti"><div class="tic">📗</div><div class="tin">Excel Auto.</div></div>
+          <div class="ti"><div class="tlogo"><img src="img/logos/solidworks.png" alt="" onerror="this.remove()"/></div><div class="tin">SolidWorks</div></div>
+          <div class="ti"><div class="tlogo"><img src="img/logos/catia.png" alt="" onerror="this.remove()"/></div><div class="tin">CATIA V5</div></div>
+          <div class="ti"><div class="tlogo"><img src="img/logos/onshape.png" alt="" onerror="this.remove()"/></div><div class="tin">Onshape</div></div>
+          <div class="ti"><div class="tlogo"><svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#ffb71b" d="M46.883 8.313L0 119.679h32.013L77.153 8.313z"/><path d="M82.593 11.824L67.42 49.262l28.545 70.425H128z"/></svg></div><div class="tin">ANSYS</div></div>
+          <div class="ti"><div class="tlogo"><img src="img/logos/abaqus.png" alt="" onerror="this.remove()"/></div><div class="tin">Abaqus</div></div>
+          <div class="ti"><div class="tlogo"><svg viewBox="0 0 256 255" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="SVGg39WleeP" x1="12.959%" x2="79.639%" y1="12.039%" y2="78.201%"><stop offset="0%" stop-color="#387eb8"/><stop offset="100%" stop-color="#366994"/></linearGradient><linearGradient id="SVGlXoRkc4T" x1="19.128%" x2="90.742%" y1="20.579%" y2="88.429%"><stop offset="0%" stop-color="#ffe052"/><stop offset="100%" stop-color="#ffc331"/></linearGradient></defs><path fill="url(#SVGg39WleeP)" d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072M92.802 19.66a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.13"/><path fill="url(#SVGlXoRkc4T)" d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897m34.114-19.586a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.131a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13"/></svg></div><div class="tin">Python</div></div>
+          <div class="ti"><div class="tlogo"><svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="SVGjM30PecW" x1="16.803" x2="15.013" y1="16.631" y2="22.411" gradientTransform="matrix(4 0 0 -4 0 128)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#512"/><stop offset=".23" stop-color="#523"/><stop offset=".36" stop-color="#534"/><stop offset=".51" stop-color="#645"/><stop offset=".66" stop-color="#568"/><stop offset=".84" stop-color="#29d"/></linearGradient><linearGradient id="SVGAN4uibUM" x1="29.71" x2="11.71" y1="18.983" y2="14.563" gradientTransform="scale(4)" gradientUnits="userSpaceOnUse"><stop offset=".081" stop-color="#c33"/><stop offset=".189" stop-color="#de5239"/><stop offset=".313" stop-color="#f06e3e"/><stop offset=".421" stop-color="#fa8042"/><stop offset=".5" stop-color="#fe8643"/><stop offset=".58" stop-color="#fa7f42"/><stop offset=".696" stop-color="#ef6c3e"/><stop offset=".833" stop-color="#dc4c37"/><stop offset=".916" stop-color="#cf3633"/></linearGradient></defs><path fill="#49d" d="m8 70.2l31.879-12.88a82.6 82.6 0 0 1 10.883-11.8c2.636-1.399 7.597-.641 16.68-11.918c8.796-11 11.597-20.403 15.718-20.403c6.52 0 11.32 14.082 18.602 35.403A462 462 0 0 0 120 96.48c-7.602-7.082-14.078-14.718-21.48-14.52c-6.88.161-14.52 8.321-22.88 18.802C69 109.16 60.2 114.922 56.763 114.8c0 0-8.883-25.121-16.32-29.2a10.56 10.56 0 0 0-9.563.797L8 70.16zm0 0"/><path fill="url(#SVGjM30PecW)" d="M79.2 16.078c-2.68 3.602-5.92 10.203-11.76 17.524c-9.082 11.277-14 10.52-16.68 11.918a78.7 78.7 0 0 0-10.882 11.8l13.2 9.64C64.28 51.68 70.28 35.122 74.96 24.399a54.7 54.7 0 0 1 4.238-8.32zm0 0"/><path fill="url(#SVGAN4uibUM)" d="M83.2 13.2c-8.72 0-14.68 45.921-46.88 71.562c9.04-1.48 16.88 20.957 20.48 30.039c16-2.723 28.802-33.32 41.72-32.84c7.402.277 13.878 7.437 21.48 14.52C102.64 60 94.52 13.198 83.2 13.198zm0 0"/></svg></div><div class="tin">MATLAB and Simulink</div></div>
+          <div class="ti"><div class="tlogo"><img src="img/logos/excel.png" alt="" onerror="this.remove()"/></div><div class="tin">Excel and VBA</div></div>
+          <div class="ti"><div class="tlogo"><svg viewBox="0 0 256 342" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="SVGCdghnblF" x1="42.593%" x2="57.245%" y1="0%" y2="93.174%"><stop offset="0%" stop-color="#e6ad10"/><stop offset="100%" stop-color="#c87e0e"/></linearGradient><linearGradient id="SVG5tapKdof" x1="40.122%" x2="62.028%" y1="0%" y2="95.592%"><stop offset="0%" stop-color="#f6d751"/><stop offset="100%" stop-color="#e6ad10"/></linearGradient><linearGradient id="SVGRvjwscVp" x1="27.774%" x2="55.012%" y1="0%" y2="96.828%"><stop offset="0%" stop-color="#f9e589"/><stop offset="100%" stop-color="#f6d751"/></linearGradient><path id="SVGvAvgNc4T" d="M142.222 14.222C142.222 6.368 148.59 0 156.444 0h85.334C249.632 0 256 6.368 256 14.222v312.89c0 7.854-6.368 14.221-14.222 14.221H14.222C6.368 341.333 0 334.966 0 327.111V184.89c0-7.855 6.368-14.222 14.222-14.222h56.89V99.556c0-7.855 6.367-14.223 14.222-14.223h56.888z"/></defs><mask id="SVGvCV5wclL" fill="#fff"><use href="#SVGvAvgNc4T"/></mask><path fill="url(#SVGCdghnblF)" d="M256 0v341.333H142.222V0z" mask="url(#SVGvCV5wclL)"/><path fill-opacity=".2" d="M184.889 100.978v241.778H71.11v-256h99.556c7.854 0 14.222 6.367 14.222 14.222" mask="url(#SVGvCV5wclL)"/><path fill-opacity=".18" d="M184.889 106.667v241.777H71.11v-256h99.556c7.854 0 14.222 6.368 14.222 14.223" mask="url(#SVGvCV5wclL)"/><path fill="url(#SVG5tapKdof)" d="M184.889 99.556v241.777H71.11v-256h99.556c7.854 0 14.222 6.368 14.222 14.223" mask="url(#SVGvCV5wclL)"/><path fill="url(#SVGRvjwscVp)" d="M0 170.667v170.666h113.778V184.89c0-7.855-6.368-14.222-14.222-14.222z" mask="url(#SVGvCV5wclL)"/></svg></div><div class="tin">Power BI</div></div>
+          <div class="ti"><div class="tlogo"><svg viewBox="0 0 512 254" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="SVGG66mF8Jd" x1="50%" x2="50%" y1="0%" y2="100.002%"><stop offset="0%" stop-color="#00aeef"/><stop offset="21.2%" stop-color="#0097dc"/><stop offset="51.9%" stop-color="#007cc5"/><stop offset="79.2%" stop-color="#006cb8"/><stop offset="100%" stop-color="#0066b3"/></linearGradient></defs><path fill="url(#SVGG66mF8Jd)" d="M0 253.281h258.764L512 0H0z"/><path fill="#fff" d="M303.848 50.656H253.28l.17 118.93l-44.032-118.975h-43.66l-37.587 99.36c-3.996-25.283-30.135-34.007-50.702-40.542c-13.581-4.362-27.996-10.779-27.85-17.87c.113-5.82 7.712-11.218 22.813-10.413c10.131.546 19.08 1.362 36.883 9.962l17.505-30.506c-16.233-8.263-38.679-13.48-57.084-13.497h-.113c-21.461 0-39.331 6.95-50.408 18.405C11.493 73.502 7.328 83.667 7.16 94.907c-.282 15.467 5.386 26.432 17.296 35.195c10.064 7.374 22.936 12.158 34.277 15.67c13.987 4.334 25.413 8.105 25.272 16.131c-.112 2.927-1.216 5.662-3.32 7.869c-3.49 3.602-8.837 4.953-16.239 5.1c-14.28.303-24.86-1.943-41.724-11.91l-15.574 30.9c16.846 9.58 34.728 14.386 55.047 14.386l4.57-.034c17.685-.32 32.037-4.559 43.44-13.733c.654-.524 1.239-1.053 1.847-1.588l-1.914 9.862l42.664-.135l7.655-19.599c8.048 2.747 17.2 4.267 26.915 4.267c9.467 0 18.371-1.441 26.268-4.03l5.336 19.362l76.547.073l.186-44.68h16.289c39.371 0 62.645-20.037 62.645-53.639c-.013-37.423-22.638-53.723-70.795-53.723zM187.372 152.318c-5.882 0-11.398-1.025-16.142-2.826l15.962-50.403h.31l15.703 50.544c-4.728 1.689-10.115 2.685-15.839 2.685zm119.436-28.959h-11.11V82.74h11.116c14.803 0 26.623 4.93 26.623 20.048c-.013 15.647-11.82 20.572-26.623 20.572"/></svg></div><div class="tin">SAP</div></div>
         </div>
         <div class="itags">
           <span class="itag" style="background:rgba(240,201,58,.08);border:1px solid rgba(240,201,58,.2);color:var(--accent)">Aerospace</span>
-          <span class="itag" style="background:rgba(74,158,255,.08);border:1px solid rgba(74,158,255,.2);color:var(--accent2)">Renewable Energy</span>
+          <span class="itag" style="background:rgba(74,158,255,.08);border:1px solid rgba(74,158,255,.2);color:var(--accent2)">Energy and Environment</span>
           <span class="itag" style="background:rgba(240,90,40,.08);border:1px solid rgba(240,90,40,.2);color:var(--accent3)">Manufacturing</span>
           <span class="itag" style="background:rgba(168,85,247,.08);border:1px solid rgba(168,85,247,.2);color:#a855f7">Construction</span>
           <span class="itag" style="background:rgba(52,199,89,.08);border:1px solid rgba(52,199,89,.2);color:#4cd964">Logistics</span>
+          <span class="itag" style="background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.2);color:#38bdf8">Railway</span>
+          <span class="itag" style="background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.2);color:#f87171">Automotive</span>
+          <span class="itag" style="background:rgba(163,230,53,.08);border:1px solid rgba(163,230,53,.2);color:#a3e635">Agriculture</span>
+          <span class="itag" style="background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24">Food and Beverage</span>
+          <span class="itag" style="background:rgba(45,212,191,.08);border:1px solid rgba(45,212,191,.2);color:#2dd4bf">Research and Development</span>
+          <span class="itag" style="background:rgba(244,114,182,.08);border:1px solid rgba(244,114,182,.2);color:#f472b6">Engineering Design Office</span>
         </div>
       </div>
     </div>
@@ -483,7 +436,8 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
           <div class="abm">
             <div class="abrow"><div class="abic">📍</div>International: FR, SN, PL, CN</div>
             <div class="abrow"><div class="abic">🏢</div>Founder, IngeTalent Consultancy</div>
-            <div class="abrow"><div class="abic">🎓</div>Mechanical Engineering Degree</div>
+            <div class="abrow"><div class="abic">🎓</div>M.Sc. and MBA, UTBM</div>
+            <div class="abrow"><div class="abic">🛂</div>EU Blue Card eligible</div>
             <div class="abrow"><div class="abic">✉️</div>talentinge@gmail.com</div>
             <div class="abrow"><div class="abic">💼</div>Open to Remote and On-site Roles</div>
           </div>
@@ -492,14 +446,14 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
       <div>
         <span class="lbl">About Me</span>
         <h2 class="stitle" style="margin-bottom:22px;">THE<br>ENGINEER</h2>
-        <p class="abt">I am a <strong>Mechanical Engineer</strong> with a rare combination of hands-on design expertise and programming capability. I have worked across <strong>aerospace, manufacturing, and renewable energy</strong> sectors in France, China, Poland, and Senegal.</p>
+        <p class="abt">I am a <strong>Mechanical Engineer</strong> with a rare combination of hands-on design expertise and programming capability. I have worked across <strong>aerospace, automotive, railway, agriculture, food and beverage, energy, and research</strong> sectors in France, China, and Senegal, and studied in Poland.</p>
         <p class="abt">What sets me apart: I do not just design. I <strong>automate the design process itself</strong>. My SolidWorks VBA macros and Python tools have saved clients hours of manual work weekly, turning repetitive tasks like BOM extraction, DXF export, material assignment, and parametric design into one-click operations.</p>
-        <p class="abt">Through <strong>IngeTalent</strong>, I work with companies needing rigorous engineering delivered fast and right, whether that is CAD modeling, FEA simulation, or custom automation tooling.</p>
+        <p class="abt">Through <strong>IngeTalent</strong>, I work with companies needing rigorous engineering delivered fast and right, whether that is CAD modeling, FEA simulation, or custom automation tooling. My <strong>M.Sc. in Mechanical Engineering and Design and MBA in Engineering Management</strong> (Entrepreneurship and Innovation option) from UTBM add the business and project management view to the technical depth.</p>
         <div class="abhl">
           <div class="hli"><div class="hld" style="background:var(--accent)"></div><div class="hlt"><strong>Design and Code</strong>Hybrid mechanical depth and SolidWorks API automation skills</div></div>
-          <div class="hli"><div class="hld" style="background:var(--accent2)"></div><div class="hlt"><strong>International</strong>Worked across 4 countries with cross-cultural engineering experience</div></div>
-          <div class="hli"><div class="hld" style="background:var(--accent3)"></div><div class="hlt"><strong>Founder Mindset</strong>Running IngeTalent means owning results end to end</div></div>
-          <div class="hli"><div class="hld" style="background:#a855f7"></div><div class="hlt"><strong>Simulation First</strong>FEA validation before fabrication reduces cost and risk</div></div>
+          <div class="hli"><div class="hld" style="background:var(--accent2)"></div><div class="hlt"><strong>International</strong>Studied and worked across 4 countries with cross-cultural engineering experience</div></div>
+          <div class="hli"><div class="hld" style="background:var(--accent3)"></div><div class="hlt"><strong>Engineer and Manager</strong>Technical degree combined with an MBA in Engineering Management</div></div>
+          <div class="hli"><div class="hld" style="background:#a855f7"></div><div class="hlt"><strong>Founder Mindset</strong>Running IngeTalent means owning results end to end</div></div>
         </div>
       </div>
     </div>
@@ -515,28 +469,73 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
     </div>
     <div class="tl rv">
       <div class="tli">
-        <div class="tlp">2022 to Present</div>
+        <div class="tlp">2021 to Present</div>
         <div class="tlr">Founder and Engineering Consultant</div>
-        <div class="tlc">IngeTalent <span class="loc">🌍 Remote / International</span></div>
-        <p class="tld">Freelance mechanical engineering consultancy delivering CAD design, FEA simulation, and workflow automation. Key deliverables include a SolidWorks VBA macro suite covering BOM export, RAL color management, material library, balcony design automation, and DXF export, as well as ANSYS simulation studies for industrial clients.</p>
+        <div class="tlc">IngeTalent <span class="loc">🌍 Remote / International</span> <span class="loc">Multi-industry</span></div>
+        <p class="tld">Freelance mechanical engineering consultancy delivering CAD design, FEA simulation, and workflow automation. Key deliverables include a SolidWorks VBA macro suite covering BOM export, RAL color management, material library, balcony design automation, and DXF export, as well as ANSYS simulation studies for industrial clients. Projects span railway, automotive, agriculture, aerospace, and other industries. Also delivered independent market research studies as a freelancer, covering sustainable business subsidies, logistics in France, and customer experience in Wallonia.</p>
+        <div class="tll">
+          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-subsidies.md" target="_blank">Study: Sustainable Business Subsidies</a>
+          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-logistics.md" target="_blank">Study: High-Performance Logistics in France</a>
+          <a href="https://github.com/ingetalent/jeremie.diatta/blob/main/projects/market-research-customer.md" target="_blank">Study: Customer Experience in Wallonia</a>
+        </div>
       </div>
       <div class="tli">
         <div class="tlp">2021</div>
         <div class="tlr">Project Engineer</div>
-        <div class="tlc">Coca Cola EuroPacific Partners <span class="loc">✈️ France</span></div>
+        <div class="tlc">Coca Cola EuroPacific Partners <span class="loc">✈️ France</span> <span class="loc">Food and Beverage</span></div>
         <p class="tld">Contributed to industrial engineering projects within one of the world's largest beverage manufacturers. Coordinated cross-functional teams on production line improvements, managed technical documentation, tracked project milestones, and supported process optimization initiatives across manufacturing operations in France.</p>
       </div>
       <div class="tli">
         <div class="tlp">2020</div>
         <div class="tlr">Project Manager</div>
-        <div class="tlc">Startup Keurigne <span class="loc">🌍 FR / SN</span></div>
-        <p class="tld">Led market research and business development initiatives for an early-stage startup operating between France and Senegal. Conducted studies on sustainable subsidies, logistics performance, and customer experience strategy, combining analytical rigor with entrepreneurial execution.</p>
+        <div class="tlc">Startup Keurigne <span class="loc">🌍 FR / SN</span> <span class="loc">Energy and Environment</span></div>
+        <p class="tld">Led market research and business development initiatives for an early-stage energy and environment startup operating between France and Senegal.</p>
       </div>
       <div class="tli">
         <div class="tlp">2019</div>
         <div class="tlr">Mechanical and Design Engineer</div>
-        <div class="tlc">Institute of Industry Technology, Guangzhou and Chinese Academy of Sciences <span class="loc">🏭 China</span></div>
+        <div class="tlc">Institute of Industry Technology, Guangzhou and Chinese Academy of Sciences <span class="loc">🏭 China</span> <span class="loc">Research and Development</span></div>
         <p class="tld">Worked on mechanical design and prototyping projects at one of China's leading research institutions. Developed 3D models and technical drawings, contributed to design validation processes, and collaborated with multidisciplinary research teams on applied engineering problems in an international academic environment.</p>
+      </div>
+      <div class="tli">
+        <div class="tlp">2017 to 2018</div>
+        <div class="tlr">Structural Design Engineer</div>
+        <div class="tlc">WW CORP <span class="loc">🏙️ Paris, France</span> <span class="loc">Retail</span></div>
+        <p class="tld">Installed decorative structures, such as lighted signs and galleries designed in SolidWorks, to enhance customer experience and boost foot traffic in competitive urban retail markets. Managed client inquiries, authored technical reports, and ensured design and installation met client expectations and safety regulations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="rv">
+      <span class="lbl">Training</span>
+      <h2 class="stitle">EDUCATION</h2>
+      <p class="ssub">Technical engineering training combined with management and entrepreneurship.</p>
+    </div>
+    <div class="tl rv">
+      <div class="tli">
+        <div class="tlp">2020</div>
+        <div class="tlr">MBA Engineering Management</div>
+        <div class="tlc">UTBM, Belfort-Montbéliard <span class="loc">🎓 France</span></div>
+        <p class="tld">MBA in Engineering Management with an option in Entrepreneurship and Innovation.</p>
+      </div>
+      <div class="tli">
+        <div class="tlp">2019</div>
+        <div class="tlr">M.Sc. Mechanical Engineering and Design</div>
+        <div class="tlc">UTBM, Belfort-Montbéliard <span class="loc">🎓 France</span></div>
+      </div>
+      <div class="tli">
+        <div class="tlp">Oct 2018 to Feb 2019</div>
+        <div class="tlr">Erasmus Exchange Semester</div>
+        <div class="tlc">Lodz University of Technology <span class="loc">🎓 Poland</span></div>
+        <p class="tld">Deepened my skills and knowledge in heat transfer, fluid mechanics, mechanics (mechanics of materials, biomechanics, solid mechanics), dynamics and drive of machines, MATLAB and Simulink, and English in Action.</p>
+      </div>
+      <div class="tli">
+        <div class="tlp">2015</div>
+        <div class="tlr">B.Sc. Electromechanical Engineering and Production</div>
+        <div class="tlc">École Supérieure Polytechnique, Dakar <span class="loc">🎓 Senegal</span></div>
       </div>
     </div>
   </div>
@@ -553,7 +552,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
         <div class="av">Currently available for new projects and full-time roles</div>
       </div>
       <div class="chs">
-        <a href="mailto:contact@ingetalent.com" class="ch" style="--chc:#f0c93a;--chbg:rgba(240,201,58,.08);--chbo:rgba(240,201,58,.2)">
+        <a href="mailto:talentinge@gmail.com" class="ch" style="--chc:#f0c93a;--chbg:rgba(240,201,58,.08);--chbo:rgba(240,201,58,.2)">
           <div class="chi">✉️</div><div><div class="cht">Email</div><div class="chv">talentinge@gmail.com</div></div>
         </a>
         <a href="https://www.linkedin.com/in/jeremiediattamechanicalengineer" target="_blank" class="ch" style="--chc:#0a66c2;--chbg:rgba(10,102,194,.08);--chbo:rgba(10,102,194,.2)">
@@ -572,14 +571,12 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
 
 <footer>
   <div class="fb">INGE<em>TALENT</em> — Jeremie DIATTA</div>
-  <div class="fc">© 2025 · Mechanical Engineering and Automation · talentinge@gmail.com</div>
+  <div class="fc">© 2026 · Mechanical Engineering and Automation · talentinge@gmail.com</div>
 </footer>
 
 <script>
 const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in');});},{threshold:0.07});
 document.querySelectorAll('.rv').forEach(r=>obs.observe(r));
-const skObs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('anim');});},{threshold:0.18});
-const sl=document.getElementById('skl');if(sl)skObs.observe(sl);
 function fp(cat,btn){
   document.querySelectorAll('.ftab').forEach(t=>t.classList.remove('on'));
   btn.classList.add('on');
